@@ -1,9 +1,27 @@
 {
-  "name": "twitter-url-gen",
+  "name": "twitter-intent-url",
+  "description": "Twitter Web Intent URL generater",
   "author": {
     "name": "Mr_ozin"
   },
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3",
+    "vitest": "^0.23.4"
+  }
 }
