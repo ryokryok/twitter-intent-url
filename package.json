@@ -1,6 +1,8 @@
 {
   "name": "twitter-intent-url",
   "description": "Twitter Web Intent URL generater",
+  "repository": "ryokryok/twitter-intent-url",
+  "homepage": "https://github.com/ryokryok/twitter-intent-url/#readme",
   "author": {
     "name": "Mr_ozin"
   },
