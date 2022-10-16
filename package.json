@@ -1,7 +1,7 @@
 {
   "name": "twitter-intent-url",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Twitter Web Intent URL generater",
   "author": {
     "name": "Mr_ozin"
