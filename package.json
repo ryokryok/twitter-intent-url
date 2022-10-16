@@ -1,14 +1,14 @@
 {
   "name": "twitter-intent-url",
+  "type": "module",
+  "version": "0.0.1",
   "description": "Twitter Web Intent URL generater",
-  "repository": "ryokryok/twitter-intent-url",
-  "homepage": "https://github.com/ryokryok/twitter-intent-url/#readme",
   "author": {
     "name": "Mr_ozin"
   },
   "license": "MIT",
-  "version": "0.0.1",
-  "type": "module",
+  "homepage": "https://github.com/ryokryok/twitter-intent-url/#readme",
+  "repository": "ryokryok/twitter-intent-url",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -19,10 +19,14 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepack": "npm run build",
-    "test": "vitest"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest",
+    "prepack": "npm run build"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "eslint": "^8.25.0",
     "typescript": "^4.8.3",
     "vitest": "^0.23.4"
   }
