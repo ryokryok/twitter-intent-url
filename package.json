@@ -22,7 +22,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest",
-    "prepack": "npm run build"
+    "prepack": "yarn build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
